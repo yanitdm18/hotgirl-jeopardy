@@ -21,39 +21,34 @@
 
 ## Wireframed Plans for Design
 
-### Game Board:
+#Header Section:
+Game Title: "Hot Girl Jeopardy"
+Score Display Section:
+Current Score: "Score: [score value]"
+Reset Button: "Reset"
+Game Board Section:
+Grid layout with five columns representing categories.
+Each category has six cells with point values (100, 200, 300, 400, 500).
+Cells contain only the point values initially.
+Question Display Section:
+Hidden by default.
+Question Modal:
+Question Text: "What does the Twitter term 'IJBOL' stand for?"
+Input Field: For user to type the answer.
+Submit Button: To submit the answer.
+Pop-up Display Section:
+Hidden by default.
+Displays correctness feedback:
+"Correct! You earned [points] points."
+"Incorrect! Deducting [points] points."
+CSS Styling:
+Vibrant colors for categories and cells.
+Stylish fonts, possibly from Google Fonts.
+Borders and spacing for a visually appealing layout.
+JavaScript Functionality:
+Event listeners for cell clicks, displaying questions.
+Validation of user answers and scoring.
+Display/hide question modal based on user interactions.
+Show/hide pop-up messages for correct or incorrect answers.
 
-- **Category Headers (CSS Grid):**
-  - Stylish headers for each category, using CSS Grid to keep things lookin organized.
-  - Equal space for each category – gotta keep it balanced!
-  - Fonts and colors that match the "Hot Girl Jeopardy" vibe. COLORWWAY-hot pink,baby pink,white sparkles for the animation on questions.
-
-- **Cell Styling (Flexbox):**
-  - Neat-looking cells for questions in each category, all laid out with Flexbox.
-  - Flexbox magic for keeping things aligned and spaced just right.
-  - A little hover animation for extra oomph.
-
-- **Scoring Display (Flexbox):**
-  - A pink girly display for your score, styled with Flexbox.
-  - Watch your score update in real-time as you answer the questions.
-
-### Question Display:
-
-- **Pop-up/Modal Design (Flexbox):**
-  - A colorful,y pop-up for showing questions, all arranged with Flexbox.
-  - Easy-to-read font and a baby pink background and a hot pink  border, thanks to Flexbox.
-
-- **Player Input Field (Flexbox):**
-  - A friendly input field for your answers, decked out with Flexbox.
-  - Maybe a little indicator for correct/incorrect answers 
-
-
-### Responsive Design:
-
-- **Adaptation for Different Screens (CSS Grid and Flexbox):**
-  - Making sure the game looks slick on any screen size, thanks to CSS Grid and Flexbox.
-  - Responsiveness at its finest, adjusting layouts with Flexbox and CSS Grid to keep things smooth.
-
-- **Scaling Graphics (CSS Grid and Flexbox):**
-  - Graphics and elements scaling just right for any resolution, with again,  little more help from CSS Grid and Flexbox.
 
