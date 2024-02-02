@@ -21,51 +21,16 @@
 
 ## Wireframed Plans for Design
 
-#Header Section:
-Game Title: "Hot Girl Jeopardy"
-Score Display Section:
-Current Score: "Score: [score value]"
-Reset Button: "Reset"
-+----------------------------------------+
-|             Hot Girl Jeopardy           |
-+----------------------------------------+
-| [Title: "Hot Girl Jeopardy"]           |
-+----------------------------------------+
-| [Score Display: "Score: 0"]            |
-| [Reset Button]                         |
-+----------------------------------------+
-| [Category 1 - Internet Slang]         |
-| +---+ +---+ +---+ +---+ +---+         |
-| |100| |200| |300| |400| |500|         |
-| +---+ +---+ +---+ +---+ +---+         |
-+----------------------------------------+
-| [Category 2 - Nicki Lyrics]           |
-| +---+ +---+ +---+ +---+ +---+         |
-| |100| |200| |300| |400| |500|         |
-| +---+ +---+ +---+ +---+ +---+         |
-+----------------------------------------+
-| [Category 3 - Beefs]                   |
-| +---+ +---+ +---+ +---+ +---+         |
-| |100| |200| |300| |400| |500|         |
-| +---+ +---+ +---+ +---+ +---+         |
-+----------------------------------------+
-| [Category 4 - BGC History]             |
-| +---+ +---+ +---+ +---+ +---+         |
-| |100| |200| |300| |400| |500|         |
-| +---+ +---+ +---+ +---+ +---+         |
-+----------------------------------------+
-| [Category 5 - Anime Knowledge]         |
-| +---+ +---+ +---+ +---+ +---+         |
-| |100| |200| |300| |400| |500|         |
-| +---+ +---+ +---+ +---+ +---+         |
-+----------------------------------------+
-| [Question Display: "What is the...?"] |
-| [Input for Answer]                     |
-| [Submit Button]                        |
-+----------------------------------------+
-| [Popup Display: "Correct! You earned 100 points."] |
-| [Popup Display: "Incorrect! Deducting 100 points."] |
-+----------------------------------------------------+
+-The Hot Girl Jeopardy web application consists of a main title at the top, boldly displaying the name of the game. Just below the title, there's a score display section indicating the current score. Adjacent to the score display, a reset button is available to reset the game.
 
+The main content of the page is organized into five categories, each with a unique theme. Within each category, there are cells representing questions of varying point values. These cells are arranged in a grid format, providing a visually appealing game board.
+
+As users click on a cell, a question display section appears in the center of the screen. This section prompts users with a question related to the selected cell, accompanied by an input field for answering. A submit button allows users to submit their answers.
+
+Additionally, there are popup displays for both correct and incorrect answers. When a user answers a question, a popup appears, providing feedback. For correct answers, the popup congratulates the user and mentions the points earned. Conversely, for incorrect answers, the popup notifies the user of points deducted.
+
+The design maintains a consistent visual theme with hot pink borders for cells, light coral borders for category headers, and a vibrant background color. The font is styled with the "Protest Strike" font from Google Fonts, adding a unique and stylish touch to the title.
+
+Overall, the wireframe aims to create an engaging and visually appealing interface for the Hot Girl Jeopardy game, providing a seamless and enjoyable user experience.
 
 
