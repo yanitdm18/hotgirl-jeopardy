@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffd9e1; 
+}
+
+.title {
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 3em;
+    margin-top: 90px; 
+    margin-bottom: 20px;
+    color: hotpink;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px; 
+    max-width: 1000px; 
+    max-height: 700px;
+    margin-bottom: 20px; 
+    margin-left: 50px; 
+    align-self: center;
+}
+
+.category {
+    display: grid;
+    grid-template-rows: repeat(6, 120px); 
+    gap: 15px; 
+}
+
+.category-header, .cell {
+    border: 2px solid black;
+    padding: 30px; 
+    text-align: center;
+    color: white; 
+    box-sizing: border-box; 
+    height: 100%;
+    position: relative;
+}
+
+.category-header {
+    background-color: hotpink;
+    border: 4px solid lightcoral;
+}
+.score-display {
+    color: hotpink; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.reset-button {
+    color: hotpink;
+    background-color: transparent;
+    border: 2px solid hotpink;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.popup-display {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    z-index: 1000;
+}
+.popup-display.correct {
+    background-color: #5cb85c; 
+    color: white;
+}
+
+.popup-display.incorrect {
+    background-color: #d9534f; 
+    color: white;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
+.cell {
+    background-color: lightcoral;
+    cursor: pointer;
+    border: 4px solid hotpink;
+}
+
+.question-display {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.question-modal {
+    text-align: center;
+    color:black
+}
