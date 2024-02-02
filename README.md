@@ -26,29 +26,46 @@ Game Title: "Hot Girl Jeopardy"
 Score Display Section:
 Current Score: "Score: [score value]"
 Reset Button: "Reset"
-Game Board Section:
-Grid layout with five columns representing categories.
-Each category has six cells with point values (100, 200, 300, 400, 500).
-Cells contain only the point values initially.
-Question Display Section:
-Hidden by default.
-Question Modal:
-Question Text: "What does the Twitter term 'IJBOL' stand for?"
-Input Field: For user to type the answer.
-Submit Button: To submit the answer.
-Pop-up Display Section:
-Hidden by default.
-Displays correctness feedback:
-"Correct! You earned [points] points."
-"Incorrect! Deducting [points] points."
-CSS Styling:
-Vibrant colors for categories and cells.
-Stylish fonts, possibly from Google Fonts.
-Borders and spacing for a visually appealing layout.
-JavaScript Functionality:
-Event listeners for cell clicks, displaying questions.
-Validation of user answers and scoring.
-Display/hide question modal based on user interactions.
-Show/hide pop-up messages for correct or incorrect answers.
++----------------------------------------+
+|             Hot Girl Jeopardy           |
++----------------------------------------+
+| [Title: "Hot Girl Jeopardy"]           |
++----------------------------------------+
+| [Score Display: "Score: 0"]            |
+| [Reset Button]                         |
++----------------------------------------+
+| [Category 1 - Internet Slang]         |
+| +---+ +---+ +---+ +---+ +---+         |
+| |100| |200| |300| |400| |500|         |
+| +---+ +---+ +---+ +---+ +---+         |
++----------------------------------------+
+| [Category 2 - Nicki Lyrics]           |
+| +---+ +---+ +---+ +---+ +---+         |
+| |100| |200| |300| |400| |500|         |
+| +---+ +---+ +---+ +---+ +---+         |
++----------------------------------------+
+| [Category 3 - Beefs]                   |
+| +---+ +---+ +---+ +---+ +---+         |
+| |100| |200| |300| |400| |500|         |
+| +---+ +---+ +---+ +---+ +---+         |
++----------------------------------------+
+| [Category 4 - BGC History]             |
+| +---+ +---+ +---+ +---+ +---+         |
+| |100| |200| |300| |400| |500|         |
+| +---+ +---+ +---+ +---+ +---+         |
++----------------------------------------+
+| [Category 5 - Anime Knowledge]         |
+| +---+ +---+ +---+ +---+ +---+         |
+| |100| |200| |300| |400| |500|         |
+| +---+ +---+ +---+ +---+ +---+         |
++----------------------------------------+
+| [Question Display: "What is the...?"] |
+| [Input for Answer]                     |
+| [Submit Button]                        |
++----------------------------------------+
+| [Popup Display: "Correct! You earned 100 points."] |
+| [Popup Display: "Incorrect! Deducting 100 points."] |
++----------------------------------------------------+
+
 
 
