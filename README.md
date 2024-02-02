@@ -17,7 +17,6 @@
 ## Credits
 
 - **Author:** Yanit Mesfin 
-- **Jeopardy Music:** [Credit to the original Jeopardy theme, but a remix for a twist!]
 - **Inspiration:** [The iconic original jeopardy ]
 
 ## Wireframed Plans for Design
@@ -41,22 +40,13 @@
 ### Question Display:
 
 - **Pop-up/Modal Design (Flexbox):**
-  - A colorful,sparkly pop-up for showing questions, all arranged with Flexbox.
+  - A colorful,y pop-up for showing questions, all arranged with Flexbox.
   - Easy-to-read font and a baby pink background and a hot pink  border, thanks to Flexbox.
 
 - **Player Input Field (Flexbox):**
   - A friendly input field for your answers, decked out with Flexbox.
   - Maybe a little indicator for correct/incorrect answers 
 
-### Jeopardy Music:
-
-- **Play Button (Flexbox):**
-  - A standout play button for your Jeopardy music, styled with Flexbox.
-  - Throw in a little animation when the music kicks in.
-
-- **Volume Control (Flexbox):**
-  - a volume control styled with Flexbox.
-  - Adjust that music to your liking.
 
 ### Responsive Design:
 
@@ -67,9 +57,3 @@
 - **Scaling Graphics (CSS Grid and Flexbox):**
   - Graphics and elements scaling just right for any resolution, with again,  little more help from CSS Grid and Flexbox.
 
-- **Buzzer Noises Animation:**
-  - Create a buzzer noise and animation for wrong answers.
-    1. Include a buzzer sound file (e.g., buzzer.mp3) in the project directory.
-    2. Open the `script.js` file.
-    3. Find the logic for handling incorrect answers.
-    4. Integrate the buzzer sound and animation when a wrong answer is submitted.
